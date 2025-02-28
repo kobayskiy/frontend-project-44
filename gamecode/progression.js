@@ -24,8 +24,8 @@ const progressionGame = (name) => {
     const userAnswer = readlineSync.question('Your answer: ');
 
     if (userAnswer !== hiddenNum.toString()) {
-      console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${hiddenNum}`);
-      console.log(`Let's try again, ${name}`);
+      console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${hiddenNum}.`);
+      console.log(`Let's try again, ${name}!`);
       return;
     }
     console.log('Correct!');
