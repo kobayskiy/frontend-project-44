@@ -11,9 +11,9 @@ const gcd = (a, b) => {
 const game = () => {
   const firstNum = getRandomNum(1, 100);
   const secondNum = getRandomNum(1, 100);
-  const question = `${firstNum} ${secondNum}`  
+  const question = `${firstNum} ${secondNum}`;
   const correctAnswer = gcd(firstNum, secondNum);
-  return [question, correctAnswer]
+  return [question, correctAnswer];
 };
 
 export default () => {

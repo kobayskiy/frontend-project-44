@@ -18,7 +18,7 @@ const game = () => {
   progressionArr[hiddenIndex] = '..';
   const question = `${progressionArr.join(' ')}`;
 
-  return [question, correctAnswer]
+  return [question, correctAnswer];
 };
 
 export default () => {

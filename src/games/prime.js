@@ -17,10 +17,10 @@ const isPrime = (num) => {
 
 const game = () => {
   const randomNum = getRandomNum(1, 100);
-  const question = `${randomNum}`
+  const question = `${randomNum}`;
   const correctAnswer = isPrime(randomNum);
 
-  return [question, correctAnswer]
+  return [question, correctAnswer];
 };
 
 export default () => {
